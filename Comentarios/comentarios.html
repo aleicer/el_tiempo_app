@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/stylesComents.css">
+  <title>Comentarios - El tiempo</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <div>
+        <h1>EL TIEMPO</h1>
+        <img class="image1" src="https://i.pinimg.com/564x/b1/77/65/b17765fb54cde5ec2b08e828dbfa5f19.jpg" alt="">
+      </div>
+      <div>
+        <button class="button-header" onclick="location.href='../index.html'">Inicio</button>
+        <button class="button-header"
+          onclick="location.href='../Consultar climas/consultarClimas.html'">Consultar</button>
+        <button class="button-header" onclick="location.href='../Comentarios/comentarios.html'">Comentarios</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="coments">
+    <h1>¡Dejanos saber que piensas de la pagina!</h1>
+  </div>
+  
+  <form class="form" >
+    <input type="text" class="name" id="firstname" name="firstname" placeholder="Nombre(s)...">
+    <input type="text" class="lastname" id="lastname" placeholder="Apellidos...">
+    <input type="text" class="email" id="email" placeholder="Correo electronico...">
+    <input type="text" class="coment" id="coment" placeholder="Comentar...">
+    <button class="button-env" onclick={comentar2()}>Enviar comentario</button>
+  </form>
+
+  <footer>
+    <div class="cont-image2">
+      <img class="image3" src="https://i.pinimg.com/564x/b1/77/65/b17765fb54cde5ec2b08e828dbfa5f19.jpg" alt="">
+    </div>
+    <h3>Derechos reservados Aleicer &copy; 2023</h3>
+  </footer>
+  <script src="comentarios.js"></script>
+</body>
+
+</html>

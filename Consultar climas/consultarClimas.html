@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/stylesConsult.css">
+  <title>Consultar climas - El tiempo</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <div>
+        <h1>EL TIEMPO</h1>
+        <img class="image1" src="https://i.pinimg.com/564x/b1/77/65/b17765fb54cde5ec2b08e828dbfa5f19.jpg" alt="">
+      </div>
+      <div>
+        <button class="button-header" onclick="location.href='../index.html'">Inicio</button>
+        <button class="button-header"
+          onclick="location.href='../Consultar climas/consultarClimas.html'">Consultar</button>
+        <button class="button-header" onclick="location.href='../Comentarios/comentarios.html'">Comentarios</button>
+      </div>
+    </div>
+  </header>
+  <div class="search-form">
+    <form id="search-form">
+      <div class="searchbox">
+        <input type="text" autocomplete="off" placeholder="Buscar ciudad..." class="search" id="searchbox" />
+      </div>
+    </form>
+  </div>
+  <div class="weather-card" id="card">
+    <div class="city" id="city">Lima, PE</div>
+    <div class="date" id="date">24/03/2023</div>
+    <div class="temperature">
+      <img src="../assets/temp-mid.png" class="temp-img" id="temp-img" />
+      <div class="temp" id="temp">14c</div>
+    </div>
+    <div class="weather" id="weather">Sol</div>
+    <div class="range" id="range">12c / 18c</div>
+  </div>
+  <footer>
+    <div class="cont-image2">
+      <img class="image3" src="https://i.pinimg.com/564x/b1/77/65/b17765fb54cde5ec2b08e828dbfa5f19.jpg" alt="">
+    </div>
+    <h3>Derechos reservados Aleicer &copy; 2023</h3>
+  </footer>
+  <script src="consultarClima.js"></script>
+</body>
+
+</html>
